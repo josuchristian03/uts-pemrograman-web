@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+ <ul>
+        <li><a href="file:Menu Utama.html">Menu utama</a></li>
+        <li><a href="Penjualan.html">PENJUALAN</a></li>
+        <li><a href="Tentang.html">TENTANG</a></li>
+      </ul>
+<center>
+  <head>
+
+<dir style="background-color:wheat;">
+  	<hr size="3" color="blue">
+
+
+    <title>PENJUALAN</title>
+    <script>
+      function hitung() {
+        // ambil nilai dari input
+        var namaBarang = document.getElementById("nama_barang").value;
+        var jumlahBarang = parseInt(document.getElementById("jumlah_barang").value);
+        var hargaBarang = parseInt(document.getElementById("harga_barang").value);
+        
+        // hitung total pembayaran
+        var total = jumlahBarang * hargaBarang;
+        
+        // tampilkan hasil
+        document.getElementById("hasil").innerHTML = "Anda membeli " + namaBarang + " sebanyak " + jumlahBarang + " buah dengan harga Rp " + hargaBarang + " Per buah dan total pembayaran sebesar Rp " + total + ".";
+      }
+    </script>
+
+  </head>
+  <body style="background-color: salmon;">
+    <h1>PENJUALAN</h1>
+
+    <hr size="3" color="blue">
+    </dir>
+    <form>
+      <label for="nama_barang">Nama Barang:</label>
+      <input type="text" id="nama_barang" name="nama_barang"><br><br>
+      <label for="jumlah_barang">Jumlah Barang:</label>
+      <input type="text" id="jumlah_barang" name="jumlah_barang"><br><br>
+      <label for="harga_barang">Harga Barang:</label>
+      <input type="text" id="harga_barang" name="harga_barang"><br><br>
+      <input type="button" value="Hitung" onclick="hitung()">
+    </form>
+    <p id="hasil"></p>
+  </body>
+</html>
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div style="background-color: wheat;">
+<hr size="3" color="blue">
+
+
+<footer>
+	<div style="font-family: Verdana, sans-serif";="color: #008080";><b>Yosua Christian Tumonggor, 20101106006,Sistem Informasi A </div>
+ 
+
+
+</footer>
+<hr size="3" color="blue">
+</div>
+<center>
